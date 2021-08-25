@@ -21,10 +21,13 @@
     "lib": ["es6"],
     "typeRoots": [
       "./typings"
-    ]
+    ],
+    // "rootDir": "src",
+    "outDir": "dist"
   },
   "include": [
-    "./**/*.ts"
+    "src/**/*.ts",
+    "typings/**/*.ts"
   ],
   "exclude": [
     "node_modules"

@@ -4,14 +4,16 @@
   "description": "",
   "scripts": {
     "compile": "./node_modules/typescript/bin/tsc",
-    "tsc": "node ./node_modules/typescript/lib/tsc.js"
+    "tsc": "node ./node_modules/typescript/lib/tsc.js",
+    "build": "gulp",
+    "cp": "gulp cp"
   },
   "keywords": [],
   "author": "",
   "license": "",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "gulp": "^4.0.2",
     "miniprogram-api-typings": "^2.8.3-1",
     "typescript": "^3.3.3333"
   }
