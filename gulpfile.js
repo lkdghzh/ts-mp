@@ -3,8 +3,9 @@ const gulp = require('gulp');
 // 拷贝非ts外的所有文件
 function cp() {
     const filelTypes = ["json", "wxml", "wxss", "jpg", "png", "gif"]
-    // ['src/**/*.wxml', 'src/**/*.json', 'src/**/*.wxss'];
-    const src = filelTypes.map((fileType) => `src/**/*${fileType}`)
+    // ['src/**/*.wxml', 'src/**/*.json', 'src/**/*.wxss',...];
+    const src = filelTypes.map((fileType) => `src/**/*.${fileType}`)
+    // console.log('src',src)
     const dest = 'dist'
     gulp.src(src, { base: './src' }).pipe(gulp.dest(dest))
 }
