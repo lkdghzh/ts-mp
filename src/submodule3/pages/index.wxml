@@ -1,0 +1,4 @@
+<!-- index.wxml -->
+<view class="container">
+  <l-button type="default">submodule3</l-button>
+</view>

@@ -23,6 +23,12 @@
       "pages": [
         "pages/index"
       ]
+    },
+    {
+      "root": "submodule3",
+      "pages": [
+        "pages/index"
+      ]
     }
   ]
 }

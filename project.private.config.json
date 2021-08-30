@@ -35,6 +35,12 @@
           "pathName": "submodule2/pages/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "分包3",
+          "pathName": "submodule3/pages/index",
+          "query": "",
+          "scene": null
         }
       ]
     }

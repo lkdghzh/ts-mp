@@ -46,6 +46,9 @@
     "packNpmRelationList": [{
       "packageJsonPath": "./package.json",
       "miniprogramNpmDistDir": "./dist"
+    },{
+      "packageJsonPath": "./src/submodule3/package.json",
+      "miniprogramNpmDistDir": "./dist/submodule3"
     }],
     "minifyWXSS": true,
     "showES6CompileOption": false
