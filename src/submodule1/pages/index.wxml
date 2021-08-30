@@ -1,4 +1,5 @@
 <!-- index.wxml -->
 <view class="container">
+  <l-button type="default">submodule1</l-button>
   <text class="user-motto">{{name}}</text>
 </view>

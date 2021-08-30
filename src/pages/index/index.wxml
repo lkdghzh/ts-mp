@@ -1,5 +1,7 @@
 <!--index.wxml-->
 <view class="container">
+  <l-button type="default">默认按钮</l-button>
+  <l-status-show show="{{true}}"></l-status-show>
   <view class="userinfo">
     <block wx:if="{{canIUseOpenData}}">
       <view class="userinfo-avatar" bindtap="bindViewTap">

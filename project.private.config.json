@@ -23,6 +23,18 @@
           "pathName": "pages/index/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "分包1",
+          "pathName": "submodule1/pages/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "分包2",
+          "pathName": "submodule2/pages/index",
+          "query": "",
+          "scene": null
         }
       ]
     }

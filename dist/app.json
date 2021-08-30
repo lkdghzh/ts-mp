@@ -10,5 +10,19 @@
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "subPackages": [
+    {
+      "root": "submodule1",
+      "pages": [
+        "pages/index"
+      ]
+    },
+    {
+      "root": "submodule2",
+      "pages": [
+        "pages/index"
+      ]
+    }
+  ]
 }
