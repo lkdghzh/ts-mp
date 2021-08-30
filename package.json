@@ -10,7 +10,9 @@
   "keywords": [],
   "author": "",
   "license": "",
-  "dependencies": {},
+  "dependencies": {
+    "lin-ui": "^0.9.4"
+  },
   "devDependencies": {
     "gulp": "^4.0.2",
     "miniprogram-api-typings": "^2.8.3-1",
